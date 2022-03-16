@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background-color: rgb(0, 79, 78);
+    display: flex;
+}
+.flex-profile{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.upper-portion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    background-color: white;
+}
+#status {
+    margin-left: auto;
+    font-size: 10px;
+    color: rgb(214, 214, 214);
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.profile-pic {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(79, 204, 130);
+}
+.lower-portion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.call-button, .chat-button{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-button {
+    background-color: rgb(80, 204, 131);
+}
+.chat-button{
+    background-color: rgb(69, 182, 117);
+}
+.gray {
+    background-color: rgb(241, 241, 241);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+#free {
+    font-weight: 900;
+    margin-bottom: 2px;
+    font-size: 16px;
+    color: rgb(32, 32, 32);
+}
+#real-cost {
+    margin-top: 0;
+    color: rgb(160, 160, 160);
+    font-size: 14px;
+}
+#title {
+    font-size: 14px;
+}
+.star-rating {
+    unicode-bidi: bidi-override;
+    color: #c5c5c5;
+    font-size: 16px;
+    height: 16px;
+    width: 81px;
+    margin: 0 auto;
+    position: relative;
+    text-shadow: 0 1px 0 #a2a2a2;
+} 
+.star-rating::before { 
+    content: '★★★★★';
+    opacity: .5;
+}
+[title="4.0"]::after {
+    width: 80%; }
+.star-rating::after {
+    color: rgb(242, 213, 102);
+    content: '★★★★★';
+    text-shadow: 0 1px 0 #ab5414;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.css-grid {
+    margin-left: 250px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 200px;
+    
+}
+.left-portion{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+}
+.right-portion{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 220px;
+}
+.grid-buttons {
+    display: flex;
+    padding-top: 15px;
+    height: 100px;
+    width: 100%;
+}
+#status2 {
+    color: rgb(214, 214, 214);
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: auto;
+    font-size: 10px;
+}
+.info {
+    margin-left: 15px;
+}
+#free2 {
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: rgb(32, 32, 32)
+}
+#real-cost2 {
+    margin-top: 0;
+    font-size: 10px;
+    color: rgb(116, 116, 116)
+}
+#title2{
+    font-size: 14px;
+    color: rgb(175, 175, 175))
+
+}
+.name {
+    font-size: 24px;
+    padding: 0;
+    margin-bottom: 0;
+    color: rgb(32, 32, 32)
+}
+
+.quote {
+    font-size: 10px;
+    color: rgb(181, 181, 181);
+    border-left: 3px solid rgb(79, 204, 130);
+    padding-left: 10px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+#css-star {
+    margin-left: 0;
+}
