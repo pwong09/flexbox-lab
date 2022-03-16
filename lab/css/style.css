@@ -11,13 +11,13 @@ body {
 .flex-profile{
     margin-top: 50px;
     margin-left: 50px;
+    width: 200px;
 }
-.upper-portion {
+.vertical {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 200px;
     background-color: white;
 }
 #status {
@@ -33,12 +33,6 @@ body {
     width: 100px;
     border: 5px solid rgb(79, 204, 130);
 }
-.lower-portion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-}
 .call-button, .chat-button{
     width: 50%;
     height: 50px;
@@ -52,7 +46,7 @@ body {
 .chat-button{
     background-color: rgb(69, 182, 117);
 }
-.gray {
+.gray-banner {
     background-color: rgb(241, 241, 241);
     width: 200px;
     display: flex;
@@ -105,34 +99,29 @@ body {
     margin-left: 250px;
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    height: 200px;
-    
+    grid-template-columns: 140px 240px;
+    height: 80px;
+    width: 380px;
 }
 .left-portion{
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 160px;
-    height: 160px;
+    justify-content: space-between;
 }
 .right-portion{
     background-color: rgb(241, 241, 241);
     display: flex;
     flex-direction: column;
-    height: 200px;
-    width: 220px;
+
 }
 .grid-buttons {
     display: flex;
-    padding-top: 15px;
-    height: 100px;
     width: 100%;
 }
 #status2 {
     color: rgb(214, 214, 214);
-    padding-bottom: 20px;
     margin-left: 10px;
     margin-top: 5px;
     margin-right: auto;
@@ -156,22 +145,18 @@ body {
 #title2{
     font-size: 14px;
     color: rgb(175, 175, 175))
-
 }
 .name {
     font-size: 24px;
-    padding: 0;
     margin-bottom: 0;
     color: rgb(32, 32, 32)
 }
-
 .quote {
     font-size: 10px;
     color: rgb(181, 181, 181);
     border-left: 3px solid rgb(79, 204, 130);
     padding-left: 10px;
-    margin-bottom: 0;
-    margin-right: 0;
+    padding-right: 5px;
 }
 #css-star {
     margin-left: 0;
